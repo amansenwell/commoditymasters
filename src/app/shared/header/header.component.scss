@@ -17,10 +17,14 @@
     border-right: 0px;
 }
 
-    #navbarNav ul li:hover a{
-    background-color: orange;
+    #navbarNav ul li:hover, div.dropdown-menu a:hover{
+    font-weight:500;
+    background: #ff865b;
 }
 
+.active{
+    background: #ff865b;
+}
 
 .navbar{
     
@@ -41,6 +45,7 @@
 .navbar-brand{
     font-weight: bold;
 }
+
 #logo{
     margin-left: 150px;
    
@@ -112,3 +117,10 @@
     }
 
   }
+
+
+  @media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}

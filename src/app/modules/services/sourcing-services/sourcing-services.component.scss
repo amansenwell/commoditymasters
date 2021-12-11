@@ -1,20 +1,8 @@
-
-
-
-
-// tracker
-
-#tracker{
-    margin: 13px auto;
-    border: 1px solid #E5E3E1;
-    background:#d9dfe9;
-    padding: 22px 27px;
-    width: 93.9%;
-    height: 100%;
-    overflow: hidden;
-    margin-bottom: 0%;
+h1{
+    text-align:left;
+    margin-bottom: 3%;
 }
-#tracker h3 {
+h3{
     padding:11px 13px; 
     width: 100%;
     background: #025b92; 
@@ -23,7 +11,28 @@
     height: auto;
 }
 
-// Carousel Starts
+.sourcingrow{
+    background: gray;
+    border-radius: 25px;
+    color: white;
+    margin-bottom: -3%;
+    text-shadow: 2px  black;
+}
+.imgdiv{
+    padding: 2%;
+}
+.imgdiv img{
+    border-radius: 25px;
+}
+.sectiondiv{
+    padding-top: 1%;
+}
+.sectiondiv ul{
+    text-align: left;
+    padding-left: 1rem;
+}
+
+
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -32,14 +41,16 @@
   
   
   .wrapper {
-    background: linear-gradient(60deg, #420285, #08BDBD);
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
     width: 100%;
     display: flex;
     justify-content: center;
     max-width: 100%;
-    height: auto;
-    padding-top: 55%;
-    padding-bottom: 60%;
+    height: 76%;
+    padding-top: 50%;
+    padding-bottom: 50%;
+    border-radius: 25px;
   }
   #wrapperhead{
     font-size: large;
@@ -59,6 +70,7 @@
   
   .carousel__item {
     display: flex;
+    text-align: center;
     align-items: center;
     position: absolute;
     width: 100%;
@@ -101,25 +113,13 @@
             animation-delay: calc(-3s * 2);
   }
   
-  .carousel__item-head {
-    border-radius: 50%;
-    background-color: #d7f7fc;
-    width: 60px;
-    height: 60px;
-    padding: 14px;
-    position: relative;
-    margin-right: -45px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  
   
   .carousel__item-body {
     width: 100%;
     background-color: #fff;
     border-radius: 8px;
-    padding: 1px 15px 2px 65px;
+    padding: 49px 35px 44px 59px;
   }
   
   .title {
@@ -195,123 +195,3 @@
       visibility: hidden;
     }
   }
-
-//   Carousel end
-
-// Card section
-
-  .card:hover{
-      background-color: #105266;
-      color: white;
-      
-  }
-  .card{
-    box-shadow: 0 0 5px #d2cbcb;
-    margin-left: 10%;
-    margin-bottom: 7%;
-    height: 97%;
-    
-  }
-  #benefits{
-    background: url("../../../../assets/benefits_bg.jpg");
-  }
-  .card-img-top{
-    vertical-align: middle;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-left: 15%;
-    margin-top: 4%;
-    
-  }
-  .cardtop{
-      background-color: gray;
-  }
-
-  // Card section
-
-  // welcome Section
-  .bulletList{
-    background-color: #a95656;;
-    padding: 10px;
-    box-shadow: grey 4px 5px 10px;
-  margin-top: 10px;
-  
-  }
-  .bulletList ul li { margin-left: -5%;}
-  .bulletList ul li:hover{
-    color: yellow;
-    font-size: 17px;
-  }
-  .bulletList ul{
-    line-height:30px;
-    
-    background-color: #ab6868;
-    border-radius: 22px;
-    margin-left: auto;
-    color: white;
-    margin-top: 10px;
-    list-style: none;
-  }
-  .content{
-    text-align: justify;
-  }
-  .content img{
-    float: left;
-    padding-right: 10px;
-  }
-  .title1{
-    font-size: 12px;
-    font-weight: bold;
-    background-color: rgb(204, 150, 150);
-    margin: auto;
-    position: relative;
-    padding: 7px;
-    text-align: center;
-    text-transform: uppercase;
-  }
-.welcome h1{
-  font-size: xx-large;
-}
-  // welcomne Section
-
-// Media queries
-  @media only screen and (max-width: 768px) {
-    .row{
-      display: inline;
-    }
-    .wrapper{
-      max-width: 50%;
-     height: auto;
-     padding-top: 20%;
-     padding-bottom: 20%;
-    }
-    .col-sm-3{
-      width: 100%;
-    }
-    #wrapperhrad{
-      font-size:xx-large;
-      padding-left: 20%;
-      margin-left: -1%;
-      border-radius: 25px;
-    }
-    div#benefits .col-sm-4 {
-      padding-left: 30%;
-      padding-bottom: 5%;
-    }
-  }
-  @media only screen and (max-width:500px){
-    
-    .wrapper{
-      max-width: 100%;
-      height: auto;
-      padding-top: 50%;
-    padding-bottom: 50%;
-    }
-    div#benefits .col-sm-4{
-      padding-left: 0%;
-      padding-bottom: 5%;
-      padding-right: 75%;
-    }
-  }
-   

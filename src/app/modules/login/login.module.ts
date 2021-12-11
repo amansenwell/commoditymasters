@@ -1,20 +1,22 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 import { RouterModule, Routes } from '@angular/router';
+import { ForgetPasswordComponent } from './forget-password/forget-password.component';
 
 const routes: Routes = [{
   path: '',
-  component: HomeComponent,
+  component: LoginComponent,
 }]
 
 @NgModule({
   declarations: [
-    HomeComponent
+    LoginComponent,
+    ForgetPasswordComponent
   ],
   imports: [
     CommonModule,
     RouterModule.forChild(routes)
   ]
 })
-export class HomeModule { }
+export class LoginModule { }
