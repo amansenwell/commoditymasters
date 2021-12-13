@@ -50,6 +50,12 @@
     margin-left: 150px;
    
 }
+#logocaption{
+    padding-left: 26%; 
+    margin-top: -1%;
+    font-weight:500;
+    font-style: italic;
+}
 .contact ul{
     
     list-style-type:none;
@@ -123,4 +129,20 @@
 	.navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+@media only screen and (max-width:500px){
+#logo{
+    height: 57px;
+    width: 290px;
+    padding-top: 1%;
+    display: flex;
+    margin: auto;
+    margin-top: 3%;
+    }
+#logocaption{
+    font-size: 12px;
+    padding-left: 25%;
+    margin-top: -8%;
+    }
 }
