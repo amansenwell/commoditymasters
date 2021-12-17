@@ -227,6 +227,7 @@
   .cardtop{
       background-color: gray;
   }
+  
 
   // Card section
 
@@ -253,8 +254,9 @@
     margin-top: 10px;
     list-style: none;
   }
-  .content{
-    text-align: justify;
+  .content p{
+    word-spacing: 3px;
+    letter-spacing: 1px;
   }
   .content img{
     float: left;
@@ -270,15 +272,20 @@
     text-align: center;
     text-transform: uppercase;
   }
-.welcome h1{
-  font-size: xx-large;
-}
+
   // welcomne Section
 
 // Media queries
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1000px) {
     .row{
       display: inline;
+    }
+    .content{
+      width: 100%;
+    }
+    
+    #prices{
+      width: 100%;
     }
     .wrapper{
       max-width: 50%;
@@ -312,6 +319,14 @@
       padding-left: 0%;
       padding-bottom: 5%;
       padding-right: 75%;
+    }
+    .content img{
+      float:none;
+    }
+  }
+  @media only screen and (max-width:1200px){
+    .col-lg-4{
+      width: 31.333333%;
     }
   }
    
