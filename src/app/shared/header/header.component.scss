@@ -33,9 +33,13 @@
     width: 100%;
     padding: 0%;
     margin-right: 0%;
+    
 
 }
-
+.navbar-toggler{
+margin-left: 27px;
+    margin-bottom: 20px;
+}
 #navbarNav{
     background-color: #025b92;
     text-align: center;
@@ -144,5 +148,8 @@
     font-size: 12px;
     padding-left: 25%;
     margin-top: -8%;
+    }
+    .header{
+        height: 150px;
     }
 }

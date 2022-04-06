@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SubscribeComponent } from './subscribe/subscribe.component';
 import { RouterModule, Routes } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms'
 
 const routes: Routes = [{
   path: '',
@@ -14,7 +16,7 @@ const routes: Routes = [{
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),ReactiveFormsModule,FormsModule
   ]
 })
 export class SubscribeModule { }

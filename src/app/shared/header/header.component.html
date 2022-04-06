@@ -1,4 +1,4 @@
-<div class="header" style="background: #025b92;padding-top: 0.5%;">
+<div class="header fixed-top" style="background: #025b92;padding-top: 0.5%;">
   <div class="row logo-bg" style="background:url(../../../assets/banner.png);margin-right: 0%;background-size:repeat;">
     <div class="col-sm-8">
       <a routerLink="/home"><img id="logo" src="../../../assets/logo.png" height="65%" width="45%"
@@ -21,29 +21,29 @@
       </div>
     </div>
 
-  </div>
+ 
+ 
 
-
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light bg-gradient">
+  <nav class="navbar navbar-expand-lg navbar-light  bg-gradient">
     <div>
       <button class="nav navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" routerLink='/home'>Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink='/login'>Raw Material Prices</a>
+            <a class="nav-link" routerLink='/rawmaterialprices'>Raw Material Prices</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink='/targetprices' routerLinkActive="active">Target Price Analysis</a>
+            <a class="nav-link" routerLink='/targetPrices' routerLinkActive="active">Target Price Analysis</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink='/spendanalysis' routerLinkActive="active" >Spend Analysis</a>
+            <a class="nav-link" routerLink='/spendAnalysis' routerLinkActive="active">Spend Analysis</a>
           </li>
           <li class="nav-item dropdown">
 
@@ -53,8 +53,10 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="background: #025b92;">
               <a class="dropdown-item" routerLink="/sourcing-services" routerLinkActive="active">Sourcing Services</a>
-              <a class="dropdown-item" routerLink="/purchase-intelligence" routerLinkActive="active">Purchase Inteligence</a>
-              <a class="dropdown-item" routerLink="/purchase-price-variance" routerLinkActive="active">Purchase Price Variance</a>
+              <a class="dropdown-item" routerLink="/purchase-intelligence" routerLinkActive="active">Purchase
+                Inteligence</a>
+              <a class="dropdown-item" routerLink="/purchase-price-variance" routerLinkActive="active">Purchase Price
+                Variance</a>
             </div>
           </li>
 
@@ -62,15 +64,12 @@
           <li class="nav-item">
             <a class="nav-link" routerLink="subscribe" routerLinkActive="active">Subscribe</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a>
-          </li>
+          <!-- <li class="nav-item"><a class="nav-link" routerLink="/login" routerLinkActive="active">User Login</a></li> -->
+          <!-- <li class="nav-item"><a class="nav-link" routerLink="/admin" routerLinkActive="active">Admin Login</a></li> -->
         </ul>
       </div>
     </div>
-
-
   </nav>
-
+</div>
 
 </div>
