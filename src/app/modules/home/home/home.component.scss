@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
 
 
 // tracker
@@ -233,26 +233,25 @@
 
   // welcome Section
   .bulletList{
-    background-color: #a95656;;
+    background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
     padding: 10px;
-    box-shadow: grey 4px 5px 10px;
-  margin-top: 10px;
+    margin-top: 10px;
   
   }
-  .bulletList ul li { margin-left: -5%;}
+  
   .bulletList ul li:hover{
-    color: yellow;
+    
     font-size: 17px;
   }
   .bulletList ul{
-    line-height:30px;
-    
-    background-color: #ab6868;
-    border-radius: 22px;
+    line-height:36px;
+    font-size: 14px;
     margin-left: auto;
     color: white;
     margin-top: 10px;
     list-style: none;
+    
   }
   .content p{
     word-spacing: 3px;
@@ -263,11 +262,13 @@
     padding-right: 10px;
   }
   .title1{
+    border-radius: 8px;
+    font-family: 'Luxurious Roman', cursive;
     font-size: 12px;
     font-weight: bold;
-    background-color: rgb(204, 150, 150);
     margin: auto;
     position: relative;
+    color: white;
     padding: 7px;
     text-align: center;
     text-transform: uppercase;
@@ -322,6 +323,23 @@
     }
     .content img{
       float:none;
+    }
+    .welcome h1{
+      font-size: 19px;
+      padding: 4% 0%;
+    }
+    .content{
+      word-spacing: 2px;
+     letter-spacing: 1px;
+     font-size: 13px;
+     padding: 4% 0%;
+    }
+    .content p{
+      padding-top: 4%;
+    }
+    .content img{
+      width: 100%;
+      height: 100%;
     }
   }
   @media only screen and (max-width:1200px){
